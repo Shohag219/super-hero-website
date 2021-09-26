@@ -16,10 +16,10 @@ const Cart = (props) => {
         <div className="d-block">
             <h2>Select and Fee</h2>
             <h3 className="mt-3"> Select: {props.cart.length}</h3>
-            <li>{
-                cart.map(university => <ul>{university.name}</ul>)  
+            <ul>{
+                cart.map(university => <li>{university.name}</li>)  
             }
-            </li>
+            </ul>
             <h4 className="mt-3" >Total Fee: {total}</h4>
             <button className="btn btn-primary mt-5">Pay Now</button>
         </div> 
