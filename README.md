@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project make react js with [Create React App](https://universitydetiels.netlify.app/).
 
 ## Available Scripts
 
